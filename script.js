@@ -101,3 +101,33 @@ console.log(finalSentenceArray)
 
 
 // 4.
+let myName = "Radwan"
+console.log(Array.isArray(sentenceArray))
+console.log(Array.isArray(myName))
+
+
+// 5.
+console.log(newArray.reverse())
+
+
+// 6.
+let randomName = ["Rohim","Jobber", "Salam", "Borkot", "Abdul"]
+randomName.sort()
+console.log(randomName)
+
+
+// 7.
+let numbers = [5, 3, 7, 10, 16, 11, 13]
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > 10) {
+        console.log(numbers[i])
+    }
+}
+
+
+// 8.
+let sum = 0;
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i]    
+}
+console.log("Total sum:" ,sum)
